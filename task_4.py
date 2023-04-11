@@ -24,5 +24,5 @@ print(df['Absolute magnitude(Mv)'].std())
 v_mean_3 = df['Temperature (K)'].std()**2
 print(v_mean_3)
 
-df.to_excel('new_excel.xlsx')
+df.to_excel(r'new_excel.xlsx')
 
